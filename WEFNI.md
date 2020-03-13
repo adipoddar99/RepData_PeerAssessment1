@@ -65,7 +65,7 @@ plot(x=meanStepsInterval$interval, y=meanStepsInterval$steps, type="l",
      ylab="Number of Steps", xlab="Intervals (in 5 mins)",
      col="darkblue")
 ```
-![](D:/RStudio/projects/pic2.png)
+![](pic2.png)
 
  maximum number of steps
  ```{r}
@@ -93,7 +93,7 @@ head(imputedTotalStepsDay)
 hist(imputedTotalStepsDay$steps, breaks=20, xlab="Number of Steps Taken", 
      main="Histogram of Total Number of Steps Taken per Day (With Imputed Values)",col="red")
 ```
-![](D:/RStudio/projects/pic3.png)
+![](pic3.png)
 
  mean and median total number of steps taken per day
  
